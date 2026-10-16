@@ -9,5 +9,4 @@ dist/
 
 # build / tooling artefacts
 .vercel/
-.grok/
 .node_modules.lock
