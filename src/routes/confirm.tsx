@@ -50,7 +50,7 @@ function ConfirmView() {
   const email = user?.primaryEmail?.trim().toLowerCase() ?? "";
 
   function clearFilter() {
-    void navigate({ search: {} });
+    void navigate({ search: { block_id: undefined } });
   }
 
   if (loading) {

@@ -6,3 +6,7 @@ node_modules/
 dist/
 .DS_Store
 *.log
+
+# build / tooling artefacts
+.vercel/
+.node_modules.lock
